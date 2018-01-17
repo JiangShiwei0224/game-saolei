@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="head" class="head">
+        <div id="rest" class="rest">剩余雷数：</div>
+        <div id="number" class="number"></div>
+        <button id="restart" class="restart">开始游戏</button>
+        <input type="text" placeholder="输入雷数">
+    </div>
+    <div id="background" class="background"></div>
+    <script src="index.js"></script>
+    <script>
+        oButton.onclick = function() {
+            if (oInput.value) {
+                leiNum = oInput.value;
+                number.innerHTML = leiNum;
+                oButton.style.display = 'block';
+                oButton.innerHTML = '重新开始';
+                game.init();
+            } else {
+                alert('请输入雷数！！！')
+            }
+        }
+    </script>
+</body>
+
+</html>

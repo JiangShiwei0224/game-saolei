@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    margin: 5px;
+}
+
+.number {
+    position: absolute;
+    left: 80px;
+    top: 6px;
+    height: 20px;
+    width: 50px;
+}
+
+.restart {
+    position: absolute;
+    left: 140px;
+    top: 6px;
+}
+
+.box {
+    background: #ccc;
+    position: absolute;
+    border: 1px solid #fff;
+}
+
+.box1 {
+    background: #999;
+    position: absolute;
+    border: 1px solid #fff;
+}
+
+.background {
+    position: relative;
+}
+
+.lei {
+    position: absolute;
+    background-image: url(http://images.gofreedownload.net/minesweeper-29414.jpg);
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+.flag {
+    position: absolute;
+    background-image: url(http://img.web07.cn/UpPic/Png/201408/07/122821071543371-lp.png);
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+.wenhao {
+    position: absolute;
+    background-image: url(http://www.51wendang.com/pic/beb893691919098401f5422f/1-455-png_6_0_0_490_215_267_328_892.979_1262.879-372-0-597-372.jpg);
+    background-size: cover;
+    border: 1px solid #fff;
+}
+
+input {
+    position: absolute;
+    left: 220px;
+    top: 8px;
+}
